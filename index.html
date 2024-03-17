@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="signInContainer">
+
+        <form id="signInForm">
+            <h2>Sign In</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Sign In">
+            <button id="showSignUp">Sign Up Instead</button>
+        </form>
+
+    </div>
+
+
+
+    <div id="signUpContainer" style="display: none;">
+
+        <form id="signUpForm">
+            <h3>Sign Up</h3>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="newusername">Username:</label>
+            <input type="text" id="newusername" name="newusername" required>
+            <label for="newpassword">Password:</label>
+            <input type="password" id="newpassword" name="newpassword" required>
+            <label for="confirmpassword">Confirm Password:</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <input type="submit" value="Sign Up">
+            <button id="showSignIn">Sign In Instead</button>
+        </form>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
